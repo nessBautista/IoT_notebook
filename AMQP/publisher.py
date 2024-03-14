@@ -17,7 +17,7 @@ channel.queue_declare(queue='IoT_Equipo8')
 channel.basic_publish(
     exchange='',
     routing_key='IoT_Equipo8',
-    body= 'Hola desde python script!'
+    body= 'Hola desde python script! - 14 de marzo 2024'
 )
 print(" our message was published")
 
